@@ -52,10 +52,6 @@ Included in this lab are the following:
 
 * Two activities: **Main Activity** and **Deatils Activity**.
 
-	* Main Activity is an empty activity. It does not require any code added. Your task is to add a new layout for tablet devices.
-	* Details Activity should send an implicit intent to bring up a webView and open a link with the information about the corresponding
-	horoscope sign.
-
 * Two fragments: **List Fragment** and **Details Fragment**.
 These are the classes that require most of the work done. In the imported project you will find TODO: to finish.
 
