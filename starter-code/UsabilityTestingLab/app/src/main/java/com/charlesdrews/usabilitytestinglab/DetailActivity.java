@@ -21,6 +21,10 @@ public class DetailActivity extends AppCompatActivity {
         if (selectedSign != null) {
 
             Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.horoscopedates.com/zodiac-signs/" + selectedSign));
+            Bundle bundle = new Bundle();
+            Uri uri = Uri.parse("http://www.horoscopedates.com/zodiac-signs/" + selectedSign);
+//            bundle.putString("url",uri);
+
             startActivity(intent);
 
             //TODO rather than launch the link externally in the broswer, launch in the detail fragment's webview

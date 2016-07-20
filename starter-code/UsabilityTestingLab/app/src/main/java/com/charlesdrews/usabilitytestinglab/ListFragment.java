@@ -83,6 +83,12 @@ public class ListFragment extends Fragment {
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
                 String sign = (String) mListView.getItemAtPosition(i);
 
+//                String website = "http://www.horoscopedates.com/zodiac-signs/" + sign;
+//            Bundle bundle = new Bundle();
+//            bundle.putString("url",website);
+//            DetailFragment fragment = new DetailFragment();
+//            fragment.setArguments(bundle);
+
                 // HERE IS WHERE YOU CALL THE CALLBACK METHOD THAT YOU FORCED THE ACTIVITY
                 // TO IMPLEMENT VIA THE INTERFACE!!!
                 mListener.onZodiacSignSelected(sign);

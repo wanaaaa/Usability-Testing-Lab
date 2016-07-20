@@ -46,10 +46,18 @@ public class DetailFragment extends Fragment {
         View view = inflater.inflate(R.layout.fragment_detail, container, false);
         mWebView = (WebView) view.findViewById(R.id.detail_web_view);
         mWebView.setWebViewClient(new WebViewClient()); // this prevents links from being opened externally in the browser
+
+
+        //String url = getInt...
+        //mWebView.getUrl(asdfsadfas);
         return view;
     }
 
     public void updateWebView(String selectedSign) {
+
+        mWebView.loadUrl(URL_BEGINNING+selectedSign);
+
+
         //TODO - look up how to load a URL in a webview
     }
 }
