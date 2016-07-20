@@ -71,5 +71,3 @@ Post the project on GitHub. Ensure that the project builds and runs successfully
 <p align="center">
 	<img src="screenshots/handset_main.png" height="400px" /> <img src="screenshots/handset_details.png" height="400px" /> <img src="screenshots/tablet.png" height="400px" />
 </p>
-
-If you're having a lot of trouble, feel free to peek at the [solution](solution-code).
