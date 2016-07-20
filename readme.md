@@ -53,9 +53,10 @@ Included in this lab are the following:
 * Two activities: **Main Activity** and **Deatil Activity**.
 
 * Two fragments: **List Fragment** and **Detail Fragment**.
-These are the classes that require most of the work done. In the imported project you will find TODO: to finish.
 
 * Layout files: **activity_main.xml**, **activity_main.xml(large)**, **activity_detail.xml**, **fragment_list.xml**, and **fragment_detail.xml**
+
+* Various `TODO` comments that will provide guidance on the work you need to do to improve this app
 
 #### Deliverable
 
