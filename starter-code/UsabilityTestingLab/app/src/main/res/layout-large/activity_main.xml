@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:showDividers="middle"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--
+        tip: to have each child element take up half the screen's width,
+        set both to zero width, then give them the same layout_weight value
+
+        you can do the same thing for height if the LinearLayout's orientation is vertical
+    -->
+    <fragment
+        class="com.charlesdrews.usabilitytestinglab.ListFragment"
+        android:id="@+id/list_fragment"
+        android:layout_width="0dp"
+        android:layout_weight="0.5"
+        android:layout_height="match_parent" />
+
+    <FrameLayout
+        android:id="@+id/detail_fragment_container"
+        android:layout_width="0dp"
+        android:layout_weight="0.5"
+        android:layout_height="match_parent" />
+
+</LinearLayout>
